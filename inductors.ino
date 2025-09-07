@@ -4,7 +4,7 @@ void setup(){
 }
 
 void loop(){
-  int capValue = analogRead(emfPin);
+  int emfValue = analogRead(emfPin);
   Serial.print("Back EMF detected Value: ");
   Serial.println(emfValue));
   delay(200);
